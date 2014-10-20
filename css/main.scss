@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.mainNav {
+  position: relative;
+  background-color: red;
+  width: 100%;
+  height: 30px;
+}
+
+.mobileMenu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: white;
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    li {
+      font-size: 1.3em;
+      background-color: rgba(250,250,250, 0.2);
+      border-bottom: 1px solid black;
+      padding: 5px 0px 5px 5px;
+      h2 {
+        color: white;
+        margin: 0px;
+      }
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.uk-offcanvas-bar {
+  background-color: black;
+}
+
+.search {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5em;
+  a {
+    color: black;
+  }
+}
