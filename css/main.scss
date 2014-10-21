@@ -121,12 +121,23 @@ body {
   }
 }
 
-.nearbyHomes {
+.homes {
+  overflow: hidden;
   h3 {
     margin: 10px 0px 10px 5px;
     text-align: left;
   }
+  .nearbyHomes {
+    width: 100%;
+    height: 275px;
+    overflow: scroll;
+    white-space: nowrap;
+    img {
+      display: inline-block;
+    }
+  }
 }
+
 
 .aboutUs {
   text-align: left;

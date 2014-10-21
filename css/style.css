@@ -93,9 +93,18 @@ body {
     font-size: 1.3em;
     vertical-align: top; }
 
-.nearbyHomes h3 {
-  margin: 10px 0px 10px 5px;
-  text-align: left; }
+.homes {
+  overflow: hidden; }
+  .homes h3 {
+    margin: 10px 0px 10px 5px;
+    text-align: left; }
+  .homes .nearbyHomes {
+    width: 100%;
+    height: 275px;
+    overflow: scroll;
+    white-space: nowrap; }
+    .homes .nearbyHomes img {
+      display: inline-block; }
 
 .aboutUs {
   text-align: left;
