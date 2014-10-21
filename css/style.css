@@ -2,26 +2,28 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-image: Url("http://www.thecassinagroup.com/wp-content/themes/base-theme/img/bg-patterns/corrugation/corrugation.png"); }
 
 .mainNav {
-  position: relative;
-  background-color: red;
+  background-color: #EEE;
   width: 100%;
-  height: 30px; }
+  height: 50px; }
 
 .mobileMenu {
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 10px;
   color: white; }
+  .mobileMenu .uk-button {
+    font-size: 1.5em; }
   .mobileMenu ul {
     list-style-type: none;
     padding: 0px; }
     .mobileMenu ul li {
       font-size: 1.3em;
       background-color: rgba(250, 250, 250, 0.2);
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid grey;
       padding: 5px 0px 5px 5px; }
       .mobileMenu ul li h2 {
         color: white;
@@ -30,12 +32,101 @@ body {
         color: white; }
 
 .uk-offcanvas-bar {
-  background-color: black; }
+  background-color: grey; }
+  .uk-offcanvas-bar ul {
+    text-align: left; }
 
 .search {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  font-size: 1.5em; }
+  top: 10px;
+  right: 0px; }
+  .search .uk-button {
+    font-size: 1.5em; }
   .search a {
     color: black; }
+  .search form h3 {
+    margin-bottom: 5px; }
+  .search form input {
+    font-size: 1.5em; }
+  .search form select {
+    width: 85%;
+    margin-top: 5px;
+    font-size: 1.3em; }
+  .search form ul {
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    width: 45%;
+    display: inline-block; }
+    .search form ul h3 {
+      margin: 0px; }
+  .search form button {
+    font-size: 2em;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #C0C0C0; }
+
+.teamLogo {
+  height: 200px;
+  background-image: Url("http://charleston.sqlpass.org/portals/208/charleston-sc-bridges.jpg"); }
+  .teamLogo img {
+    margin: 10px 0px;
+    height: 65px; }
+
+.searchBar {
+  padding: 8px 0px;
+  background-color: rgba(0, 0, 0, 0.4); }
+  .searchBar .searchForm input {
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid grey;
+    font-size: 1em;
+    vertical-align: top; }
+  .searchBar .searchForm .uk-button {
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid grey;
+    height: 54px;
+    font-size: 1.3em;
+    vertical-align: top; }
+
+.nearbyHomes h3 {
+  margin: 10px 0px 10px 5px;
+  text-align: left; }
+
+.aboutUs {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white; }
+  .aboutUs h6 {
+    color: grey; }
+
+.terms {
+  margin-top: 10px; }
+  .terms ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    .terms ul li a {
+      color: black; }
+    .terms ul li a:hover {
+      color: orange; }
+  .terms .broker {
+    margin-top: 10px; }
+  .terms p {
+    line-height: 1; }
+  .terms .equal {
+    height: 75px; }
+  .terms button {
+    font-size: 2em;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #FCA000; }
