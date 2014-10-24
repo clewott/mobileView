@@ -1,1 +1,1 @@
-This only looks right if you shrink your window down as if it were a mobile device.  This is not meant to be for full screen viewing.
+This is a build project that I did for BoomTown.  I was tasked with creating a mobile version of their site that was not as busy and overwhelming as their current site. I also learned how to use UI Kit for this repo.  If you have any questions please feel free to reach me at Christopher.R.Otten@gmail.com
